@@ -4,4 +4,3 @@ body {line-height:1;} ol, ul {list-style:none;} blockquote, q {quotes:none;} blo
 .clear { clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;} /* source: http://sonspring.com/journal/clearing-floats */
 /*  */
 body {font-size:62.5%; line-height:20px;}
-.mark {background-color:#FF0033;}

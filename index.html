@@ -5,13 +5,12 @@
 	<title>Farefore CSS Grid</title>
 	<link rel="stylesheet" href="base.css" />
 	<link rel="stylesheet" href="grid.css" />
-	<style>
-	#example-a, #example-b, #example-c, #example-d1, #example-d2 {
-		background: yellow;
-		height: 300px;
-	}
+	<style type="text/css" media="screen">
+		/* For demo use only*/
+		.GRID {background-color:rgb(245,245,245);}
+		.area {background-color:rgba(0,100,255,0.5);}
+		.footer, .mark {background-color:rgb(255,50,50); height:80px;}
 	</style>
-
 </head>
 
 <body>
@@ -40,24 +39,24 @@
 			G30 Hello
 		</div>
 		<br class="clear">		
-		<div id="example-d" class="G50" style="background-color:#00FFFF">
-			<div id="example-d1" class="G10 mark">G10</div>
-			<div id="example-d2" class="G30 mark">G30</div>
-			<div id="example-d2" class="G8 GE mark">G8</div>
+		<div class="G50">
+			<div class="G10 mark">G10</div>
+			<div class="G30 mark">G30</div>
+			<div class="G8 GE mark">G8</div>
 		</div>
 		<br class="clear">
-		<div class="G50">
-			<div class="G20" style="background-color:blue">
+		<div class="G50 area">
+			<div class="G20 area">
 				<div class="G10 mark">G10 NEW YORK CITY</div>
 				<div class="G9 GE mark">G9 NEW YORK CITY</div>
 			</div>
-			<div class="G29 GE" style="background-color:orange">
-				<div class="G20 mark" style="height:300px;">G20 NEW YORK CITY</div>
+			<div class="G29 GE area">
+				<div class="G20 mark">G20 NEW YORK CITY</div>
 				<div class="G8 GE mark">G8 NEW YORK CITY</div>
 			</div>
 		</div>
 		<br class="clear">				
-		<div class="G50 mark GF" style="background-color:yellow">
+		<div class="G50 GF footer">
 			G50 Footer
 		</div>		
 	</div>
