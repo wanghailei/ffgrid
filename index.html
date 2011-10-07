@@ -9,7 +9,17 @@
 		/* For demo use only*/
 		.GRID {background-color:rgb(245,245,245);}
 		.area {background-color:rgba(0,100,255,0.5);}
-		.footer, .mark {background-color:rgb(255,50,50); height:80px;}
+		.footer, .mark {background-color:#FF0033; height:80px;}
+		@media only screen and (min-width:768px)  and (max-width:1023px) { 
+			.G{width:1000px;} 
+		} 
+		@media only screen and (min-width:1024px) and (max-width:1279px) { .G{width:1260px;} }
+		@media only screen and (min-width:1280px) and (max-width:1439px) { .G{width:1420px;} }
+		@media only screen and (min-width:1440px) and (max-width:1679px) { 
+			.G{width:1660px;} 
+		}
+		@media only screen and (min-width:1680px) and (max-width:1919px) { .G{width:1900px;} }
+		@media only screen and (min-width:1920px) and (max-width:2560px) { .G{width:2540px;} }
 	</style>
 </head>
 
@@ -25,6 +35,8 @@
 		<div class="G10 mark">
 			G10
 		</div>
+		<br class="clear">		
+		
 		<div class="G10 mark">
 			G10
 		</div>
@@ -56,8 +68,8 @@
 			</div>
 		</div>
 		<br class="clear">				
-		<div class="G50 GF footer">
-			G50 Footer
+		<div id="footer" class="G73 GF footer">
+			Footer
 		</div>		
 	</div>
 </body>
